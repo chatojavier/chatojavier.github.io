@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,86 @@
     <link rel="stylesheet" href="./build/css/main.css">
 </head>
 
-<body>
-    <header class="">
-
+<body class="h-full">
+    <header id="header" class="header | fixed w-full z-20 | bg-white">
+        <div class="header__wraper | max-w-1200 mx-auto py-7 | flex justify-between items-center">
+            <div class="header__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37.061" height="52.791" viewBox="0 0 37.061 52.791">
+                    <defs>
+                        <style>
+                            .a {
+                                fill: none;
+                                stroke: #000;
+                                stroke-miterlimit: 10;
+                                stroke-width: 2px;
+                            }
+                        </style>
+                    </defs>
+                    <path class="a"
+                        d="M239.5,100.347l17.741,12.572V63l-17.742.09L257.332,63l17.652,12.662v-.126L257.242,88.108v-.126l17.741,12.572v-.126L257.242,113"
+                        transform="translate(-238.922 -61.995)" />
+                </svg>
+            </div>
+            <nav class="header__nav | text-xl">
+                <span class="header__nav__item | ml-11">
+                    <a href="#header">Home</a>
+                </span>
+                <span class="header__nav__item | ml-11">
+                    <a href="#aboutme">About me</a>
+                </span>
+                <span class="header__nav__item | ml-11">
+                    <a href="#skills">Skills</a>
+                </span>
+                <span class="header__nav__item | ml-11">
+                    <a href="#projects">Projects</a>
+                </span>
+                <span class="header__nav__item | ml-11">
+                    <a href="#contacto">Contacto</a>
+                </span>
+            </nav>
+        </div>
     </header>
+    <main class="main | h-full max-w-1200 mx-auto">
+        <section class="jumbotron | h-full | relative flex items-center justify-between">
+            <div class="jumbotron__left | w-1/2 text-right">
+                <div class="jumbotron__title | font-roboto text-7xl | mb-12">
+                    <div class="jumbotron__title--regular">I'm</div>
+                    <div class="jumbotron__title--black | font-black uppercase">Javier<br>Benavides</div>
+                </div>
+                <div class="jumbotron__subtitle | text-3xl">UX/UI designer, front-end developer, and student of full
+                    stack
+                    development</div>
+            </div>
+            <div class="jumbotron__right | flex-shrink-0">
+                <figure class="jumbotron__img">
+                    <img src="./build/src/img/javier_benavides-pic.jpg" alt="Javier Benavides"
+                        srcset="./build/src/img/javier_benavides-pic@2x.jpg 2x">
+                </figure>
+            </div>
+            <div class="bottom | absolute bottom-0 w-full flex justify-between items-center | py-6">
+                <div class="jumbotron__social-icons | text-2xl">
+                    <span class="social-icons--linkedin | mr-6">
+                        <a href="https://www.linkedin.com/in/javierbm/"><i class="fab fa-linkedin"></i></a>
+                    </span>
+                    <span class="social-icons--github | mr-6">
+                        <a href="https://github.com/chatojavier"><i class="fab fa-github-square"></i></a>
+                    </span>
+                    <span class="social-icons--behance | mr-6">
+                        <a href="https://www.behance.net/javierbenavides1"><i class="fab fa-behance-square"></i></a>
+                    </span>
+                    <span class="social-icons--instagram | mr-6">
+                        <a href="https://www.instagram.com/chatojavier/"><i class="fab fa-instagram-square"></i></a>
+                    </span>
+                    <span class="social-icons--twitter | mr-6">
+                        <a href="https://twitter.com/planetatech"><i class="fab fa-twitter-square"></i></a>
+                    </span>
+                </div>
+                <div class="jumbotron__arrow-down | animate-bounce"><i class="fas fa-angle-double-down"></i></div>
+                <div class="jumbotron__email"><a href="mailto:javier@javierbenavides.com">javier@javierbenavides.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
     <main></main>
     <footer></footer>
     <script src="./build/js/main.js"></script>

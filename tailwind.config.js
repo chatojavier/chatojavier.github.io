@@ -7,7 +7,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     maxWidth: {
-      '1280': '1280px',
+      '1200': '1200px',
       '1024': '1024px'
     },
     colors: {
@@ -16,6 +16,8 @@ module.exports = {
       white: '#fff'
     },
     fontFamily: {
+      'sans': 'Raleway, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif',
+      'roboto': 'Roboto, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif'
     },
     extend: {
       height: {
