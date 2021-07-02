@@ -18382,6 +18382,26 @@ video {
   }
 }
 
+/* ---- Section Title ---- */
+
+.section-title {
+  font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.p-content {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  line-height: 1.25rem;
+}
+
+.p-content p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

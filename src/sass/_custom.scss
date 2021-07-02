@@ -1,3 +1,10 @@
-// main.main {
-//     height: calc(100% - 108px);
-// }
+/* ---- Section Title ---- */
+.section-title {
+    @apply text-5xl font-roboto font-black uppercase;
+}
+.p-content {
+    @apply text-sm leading-5;
+    p:not(:last-child) {
+        @apply mb-4;
+    }
+}
