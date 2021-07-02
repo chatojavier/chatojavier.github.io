@@ -1,0 +1,13 @@
+//fonts
+@import "./fonts";
+
+//Mixins
+@import "./mixins";
+
+//Tailwind
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+//custom styles
+@import "./custom";
