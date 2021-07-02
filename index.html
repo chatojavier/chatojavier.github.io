@@ -48,8 +48,8 @@
             </nav>
         </div>
     </header>
-    <main class="main | h-full max-w-1200 mx-auto">
-        <section class="jumbotron | h-full mb-16 | relative flex items-center justify-between">
+    <main class="main | h-full mx-auto">
+        <section class="jumbotron | max-w-1200 mx-auto | h-full mb-16 | relative flex items-center justify-between">
             <div class="jumbotron__left | w-1/2 text-right">
                 <h1 class="jumbotron__title | font-roboto text-7xl | mb-12">
                     <div class="jumbotron__title--regular">I'm</div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </section>
-        <section id="aboutme" class="aboutme | mb-24 | flex justify-between">
+        <section id="aboutme" class="aboutme | max-w-1200 mx-auto | mb-24 | flex justify-between">
             <div class="aboutme__left | flex flex-col justify-end">
                 <div class="aboutme__video">
                     <iframe width="510" height="350" src="https://www.youtube.com/embed/882EjI5sYIg"
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section id="skills" class="skills | mb-24">
+        <section id="skills" class="skills | max-w-1200 mx-auto | mb-24">
             <h2 class="skills__title section-title | mb-16 | text-center">Skills</h2>
             <div class="skills__wrapper | grid grid-cols-2 gap-8">
                 <div class="skills__col--left">
@@ -137,7 +137,7 @@
                             UX/UI Design
                         </span>
                     </h3>
-                    <div class="skills__col__text p-content | mb-8">
+                    <div class="skills__col__text p-content | mb-8 | text-justify">
                         <p>I already have 3 years of experience developing user interfaces, both for websites and for
                             mobile applications. Based on my experience in marketing departments, I understand the
                             customer’s perspective and I am very focused on making the user experience as user-friendly
@@ -187,7 +187,7 @@
                             Font-end developer
                         </span>
                     </h3>
-                    <div class="skills__col__text p-content | mb-8">
+                    <div class="skills__col__text p-content | mb-8 | text-justify">
                         <p>I have experience developing websites in HTML, CSS and Javascript. I usually use Tailwind as
                             a style framework, but I also have experience with Bootstrap. For some websites developed
                             for my clients I use the Wordpress CMS, so that they can manipulate the content. However,
@@ -235,7 +235,101 @@
 
             </div>
         </section>
-        <footer class="pt-1"></footer>
+        <section id="projects" class="projects | max-w-1200 mx-auto | mb-24">
+            <h2 class="projects__title section-title | mb-12">Projects</h2>
+            <div class="projects__wrapper | grid grid-cols-2 gap-8">
+                <div class="projects__col | mb-6">
+                    <h3 class="projects__col__title | font-roboto font-black text-2xl uppercase | mb-4">
+                        Pac-Man Exercise
+                    </h3>
+                    <div class="projects__col__text p-content | mb-4 | text-justify">
+                        <p>This was one of the javascript projects developed for the MITxPro fullstack program. The task
+                            consisted of emulating the famous Pac-Man movement, opening and closing his mouth and
+                            crossing from one side of the screen to the other turning each time it bounced.</p>
+                    </div>
+                    <div class="projects__link">
+                        <span class="projects__link__icon mr-2">
+                            <i class="fas fa-link"></i>
+                        </span>
+                        <span class="projects__link__url | text-sm">
+                            <a
+                                href="https://chatojavier.github.io/pacman/starter01.html">https://chatojavier.github.io/pacman/starter01.html</a>
+                        </span>
+                    </div>
+                    <div class="projects__link">
+                        <span class="projects__link__icon mr-2">
+                            <i class="fab fa-github-square"></i>
+                        </span>
+                        <span class="projects__link__url | text-sm">
+                            <a
+                                href="https://github.com/chatojavier/eyes-exercise">https://github.com/chatojavier/eyes-exercise</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="projects__col | mb-6">
+                    <h3 class="projects__col__title | font-roboto font-black text-2xl uppercase | mb-4">
+                        Eye Exercise
+                    </h3>
+                    <div class="projects__col__text p-content | mb-4 | text-justify">
+                        <p>This was one of the javascript projects developed for the MITxPro fullstack program. This
+                            page has three big eyes. The task entrusted was to get that the pupils of these eyes could
+                            follow the movement of the mouse. I need to use events to achieve the goal.</p>
+                    </div>
+                    <div class="projects__link">
+                        <span class="projects__link__icon mr-2">
+                            <i class="fas fa-link"></i>
+                        </span>
+                        <span class="projects__link__url | text-sm">
+                            <a
+                                href="https://chatojavier.github.io/eyes-exercise/treeEyes.html">https://chatojavier.github.io/eyes-exercise/treeEyes.html</a>
+                        </span>
+                    </div>
+                    <div class="projects__link">
+                        <span class="projects__link__icon mr-2">
+                            <i class="fab fa-github-square"></i>
+                        </span>
+                        <span class="projects__link__url | text-sm">
+                            <a
+                                href="https://github.com/chatojavier/eyes-exercise">https://github.com/chatojavier/eyes-exercise</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="projects__col | mb-6">
+                    <h3 class="projects__col__title | font-roboto font-black text-2xl uppercase | mb-4">
+                        Real Time Bus Tracking
+                    </h3>
+                    <div class="projects__col__text p-content | mb-4 | text-justify">
+                        <p>This was one of the javascript projects developed for the fullstack MITxPro program. In this
+                            case I used the MapBox API, a free version web map service. Using open data from the Boston
+                            city government, I was able to create markers that show us the live locations of city buses.
+                            I colored each bus line with a different color so you could tell them apart.</p>
+                    </div>
+                    <div class="projects__link">
+                        <span class="projects__link__icon mr-2">
+                            <i class="fas fa-link"></i>
+                        </span>
+                        <span class="projects__link__url | text-sm">
+                            <a
+                                href="https://chatojavier.github.io/realtime-bus-tracker/">https://chatojavier.github.io/realtime-bus-tracker/</a>
+                        </span>
+                    </div>
+                    <div class="projects__link">
+                        <span class="projects__link__icon mr-2">
+                            <i class="fab fa-github-square"></i>
+                        </span>
+                        <span class="projects__link__url | text-sm">
+                            <a
+                                href="https://github.com/chatojavier/eyes-exercise">https://github.com/chatojavier/eyes-exercise</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-black">
+            <div class="footer__wrapper | max-w-1200 mx-auto py-3">
+                <div class="copyright text-white text-xs">© 2021 Javier Benavides. All rights reserved.</div>
+            </div>
+        </footer>
     </main>
     <script src="./build/js/main.js"></script>
 </body>

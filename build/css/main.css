@@ -18402,6 +18402,10 @@ video {
   margin-bottom: 1rem;
 }
 
+a:hover {
+  color: darkslategray !important;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
