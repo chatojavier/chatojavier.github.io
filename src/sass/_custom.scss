@@ -11,3 +11,11 @@
 a:hover {
     color: darkslategray !important;
 }
+
+.placeholder-uppercase::placeholder {
+    text-transform: uppercase;
+}
+
+.placeholder-right::placeholder {
+    text-align: right;
+}
