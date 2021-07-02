@@ -2,7 +2,8 @@ module.exports = {
   purge: [
     // Paths to your templates...
     "./**.html",
-    "./src/js/**.js"
+    "./src/js/**.js",
+    "./src/js/**/**.js"
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
